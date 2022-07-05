@@ -97,3 +97,56 @@
 .donateToday button{
     border: none;
 }
+
+/***************************
+    Our Donate Plan
+****************************/
+.ourDonatePlan{
+    text-align: center;
+    padding: 80px 50px;
+}
+
+.ourDonatePlan h1{
+    font-size: 50px;
+}
+
+.ourDonatePlan p{
+    color: rgb(132, 132, 132);
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+.donationPlans{
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.plan{
+    width: 33.33%;
+    padding: 40px 25px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.plan img{
+    margin-bottom: 20px;
+}
+
+#plan1{
+    background-color: rgb(227, 249, 255);
+}
+
+#plan2{
+    background-color: rgb(255, 235, 194);
+}
+
+#plan3{
+    background-color: rgb(255, 223, 249);
+}
+
