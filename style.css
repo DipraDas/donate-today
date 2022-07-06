@@ -25,14 +25,14 @@
     color: #fff;
 }
 
-.banner p{
+.banner p {
     color: rgb(255, 255, 255);
     font-size: 30px;
     font-weight: 300;
     margin-bottom: 40px;
 }
 
-.commonButton{
+.commonButton {
     text-decoration: none;
     padding: 15px 30px;
     color: #fff;
@@ -47,16 +47,16 @@
         Donate Today
 ****************************/
 
-.donateToday{
+.donateToday {
     text-align: center;
     padding: 80px 50px;
 }
 
-.donateToday h1{
+.donateToday h1 {
     font-size: 50px;
 }
 
-.donateToday p{
+.donateToday p {
     margin: 0 auto;
     max-width: 900px;
     font-size: 20px;
@@ -65,13 +65,13 @@
     padding: 15px 0;
 }
 
-.donationAmount{
+.donationAmount {
     width: 1100px;
     margin: 0 auto;
     display: flex;
 }
 
-.amount{
+.amount {
     width: 20%;
     margin: 20px;
     padding: 30px 25px;
@@ -80,12 +80,12 @@
     font-weight: 700;
 }
 
-#specialAmount{
+#specialAmount {
     background-color: rgba(0, 189, 120, 0.175);
     color: rgb(0, 189, 120);
 }
 
-.donateToday input{
+.donateToday input {
     margin: 30px 0;
     padding: 5px 200px;
     border: none;
@@ -94,23 +94,23 @@
     border-bottom: 2px solid rgb(195, 195, 195);
 }
 
-.donateToday button{
+.donateToday button {
     border: none;
 }
 
 /***************************
     Our Donate Plan
 ****************************/
-.ourDonatePlan{
+.ourDonatePlan {
     text-align: center;
     padding: 80px 50px;
 }
 
-.ourDonatePlan h1{
+.ourDonatePlan h1 {
     font-size: 50px;
 }
 
-.ourDonatePlan h4{
+.ourDonatePlan h4 {
     margin: 0 auto;
     max-width: 900px;
     font-size: 20px;
@@ -120,7 +120,7 @@
 }
 
 
-.ourDonatePlan p{
+.ourDonatePlan p {
     color: rgb(132, 132, 132);
     margin: 0 auto;
     max-width: 900px;
@@ -129,14 +129,14 @@
     padding: 15px 0;
 }
 
-.donationPlans{
+.donationPlans {
     display: flex;
     width: 1100px;
     margin: 0 auto;
     text-align: left;
 }
 
-.plan{
+.plan {
     width: 33.33%;
     padding: 40px 25px;
     margin-top: 20px;
@@ -144,36 +144,84 @@
     margin-right: 10px;
 }
 
-.plan img{
+.plan img {
     margin-bottom: 20px;
 }
 
-#plan1{
+#plan1 {
     background-color: rgb(227, 249, 255);
 }
 
-#plan2{
+#plan2 {
     background-color: rgb(255, 235, 194);
 }
 
-#plan3{
+#plan3 {
     background-color: rgb(255, 223, 249);
+}
+
+/***************************
+        Send Gift
+****************************/
+
+.sendGift {
+    background-image: url(images/sendGift.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.sendGiftContent {
+    padding: 200px 300px;
+    display: flex;
+}
+
+.sendGiftContentPartition{
+    width: 50%;
+}
+
+.sendGift h1 {
+    font-size: 45px;
+    color: #fff;
+}
+
+.sendGift h3{
+    padding: 20px 0;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1.5px;
+    font-size: 17px;
+}
+
+.call{
+    padding: 15px 0;
+    display: flex;
+}
+
+.call img{
+    width: 23px;
+}
+
+.callSpecificCall{
+    font-size: 20px;
+    margin: -5px 0 0px 10px;
+    color: #fff;
+    font-size: 22px;
 }
 
 /***************************
         Get My Updates
 ****************************/
 
-.getMyUpdates{
-    text-align: center ;
+.getMyUpdates {
+    text-align: center;
     padding: 70px 100px;
 }
 
-.getMyUpdates h1{
+.getMyUpdates h1 {
     font-size: 50px;
 }
 
-.getMyUpdates p{
+.getMyUpdates p {
     margin: 0 auto;
     max-width: 900px;
     font-size: 20px;
@@ -182,14 +230,14 @@
     padding: 20px 0 40px 0;
 }
 
-.getMyUpdatesForm{
+.getMyUpdatesForm {
     display: flex;
     background-color: rgb(212, 255, 216);
     padding: 80px 300px;
     margin: 0 50px;
 }
 
-.getMyUpdates input{
+.getMyUpdates input {
     border: none;
     width: 100%;
     font-size: 20px;
@@ -198,7 +246,7 @@
     outline: none;
 }
 
-.getMyUpdateFormSeperate2 button{
+.getMyUpdateFormSeperate2 button {
     width: 100%;
     border: none;
     background-color: rgb(0, 189, 120);
@@ -209,11 +257,11 @@
     cursor: pointer;
 }
 
-.getMyUpdateFormSeperate1{
+.getMyUpdateFormSeperate1 {
     width: 70%;
 }
 
-.getMyUpdateFormSeperate2{
+.getMyUpdateFormSeperate2 {
     width: 30%;
 }
 
@@ -221,19 +269,19 @@
 /***************************
         Footer
 ****************************/
-footer{
+footer {
     background-color: black;
     padding: 40px 0px;
 }
 
-footer h1{
+footer h1 {
     font-family: 'Indie Flower', cursive;
     text-align: center;
     color: rgb(0, 189, 120);
     font-size: 40px;
 }
 
-footer h3{
+footer h3 {
     color: rgb(226, 226, 226);
     text-align: center;
     font-weight: 300;
