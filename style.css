@@ -110,6 +110,16 @@
     font-size: 50px;
 }
 
+.ourDonatePlan h4{
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 15px 0;
+}
+
+
 .ourDonatePlan p{
     color: rgb(132, 132, 132);
     margin: 0 auto;
@@ -149,6 +159,64 @@
 #plan3{
     background-color: rgb(255, 223, 249);
 }
+
+/***************************
+        Get My Updates
+****************************/
+
+.getMyUpdates{
+    text-align: center ;
+    padding: 70px 100px;
+}
+
+.getMyUpdates h1{
+    font-size: 50px;
+}
+
+.getMyUpdates p{
+    margin: 0 auto;
+    max-width: 900px;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 20px 0 40px 0;
+}
+
+.getMyUpdatesForm{
+    display: flex;
+    background-color: rgb(212, 255, 216);
+    padding: 80px 300px;
+    margin: 0 50px;
+}
+
+.getMyUpdates input{
+    border: none;
+    width: 100%;
+    font-size: 20px;
+    padding: 13px 15px;
+    border-radius: 10px 0px 0px 10px;
+    outline: none;
+}
+
+.getMyUpdateFormSeperate2 button{
+    width: 100%;
+    border: none;
+    background-color: rgb(0, 189, 120);
+    color: #fff;
+    padding: 13px 0;
+    font-size: 20px;
+    border-radius: 0px 10px 10px 0px;
+    cursor: pointer;
+}
+
+.getMyUpdateFormSeperate1{
+    width: 70%;
+}
+
+.getMyUpdateFormSeperate2{
+    width: 30%;
+}
+
 
 /***************************
         Footer
