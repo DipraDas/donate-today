@@ -220,6 +220,46 @@
 }
 
 /***************************
+        Depends On Dontaion
+****************************/
+
+.dontionDepend{
+    background-color: black;
+    padding: 0px 250px;
+}
+
+.donationDependContent{
+    display: flex;
+}
+
+.donationDependPart{
+    width: 50%;
+    padding: 0 30px;
+}
+
+.donationDependPart img{
+    width: 90%;
+}
+
+.donationDependPart h1{
+    color: #fff;
+    font-size: 40px;
+    margin-top: 140px;
+}
+
+.donationDependPart p{
+    color: rgb(206, 206, 206);
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 40px;
+    letter-spacing: 1.5px;
+    margin-top: 20px;
+    line-height: 30px;
+
+
+}
+
+/***************************
         Get My Updates
 ****************************/
 
